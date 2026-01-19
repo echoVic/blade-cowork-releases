@@ -36,6 +36,12 @@ xattr -cr /Applications/Blade\ Cowork.app
 
 如果应用不在 `/Applications` 目录，请替换为实际路径。
 
+## 交流群
+
+扫码加入 QQ 产品交流群（群号：472309526）：
+
+<img src="./qq-group.jpg" width="300" alt="QQ群二维码">
+
 ## 许可证
 
 MIT License
