@@ -28,13 +28,34 @@
 
 > "Blade Cowork" 已损坏，无法打开。你应该将它移到废纸篓。
 
-解决方法：打开终端，执行以下命令：
+**方法一：右键打开（推荐）**
+
+1. 在 Finder 中找到 `Blade Cowork.app`
+2. 按住 **Control** 键，同时点击应用图标（或右键点击）
+3. 在菜单中选择 **打开**
+4. 在弹出的对话框中点击 **打开**
+
+之后就可以正常双击打开了。
+
+**方法二：使用终端命令**
 
 ```bash
-xattr -cr /Applications/Blade\ Cowork.app
+# 进入应用所在目录
+cd /Applications  # 或你解压的目录
+
+# 清除隔离属性（二选一）
+xattr -c Blade\ Cowork.app
+
+# 或者递归清除所有文件
+sudo find Blade\ Cowork.app -exec xattr -c {} \;
 ```
 
-如果应用不在 `/Applications` 目录，请替换为实际路径。
+**方法三：系统设置**
+
+1. 尝试打开应用（会被阻止）
+2. 打开 **系统设置** > **隐私与安全性**
+3. 滚动到底部，找到 "Blade Cowork" 被阻止的提示
+4. 点击 **仍要打开**
 
 ## 交流群
 
