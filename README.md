@@ -38,9 +38,9 @@ xattr -cr /Applications/Blade\ Cowork.app
 
 ## 交流群
 
-扫码加入 QQ 产品交流群（群号：472309526）：
-
-<img src="./qq-group.jpg" width="300" alt="QQ群二维码">
+| 微信群 | QQ群 (472309526) |
+|:---:|:---:|
+| <img src="./wechat-qr.png" width="200"> | <img src="./qq-qr.png" width="200"> |
 
 ## 许可证
 
