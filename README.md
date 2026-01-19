@@ -4,7 +4,7 @@
 
 ## 演示视频
 
-https://github.com/user-attachments/assets/6d6d9b89-2360-439c-ba73-082267829b0a
+[点击下载演示视频](https://github.com/echoVic/blade-cowork-releases/releases/download/v0.0.1/default.mp4)（20MB）
 
 ## 功能特性
 
